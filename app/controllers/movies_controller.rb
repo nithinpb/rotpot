@@ -1,6 +1,7 @@
 class MoviesController < ApplicationController
 
   def initialize
+    super
      @all_ratings = Movie.all_ratings
   end
 
